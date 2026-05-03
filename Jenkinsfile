@@ -30,4 +30,10 @@ pipeline {
             }
         }
     }
+    post {
+        always {
+            echo "This runs after build (success or failure)"
+        }
+
+    }
 }
